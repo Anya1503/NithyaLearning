@@ -18,7 +18,6 @@ public class ProjectSpecificMethods {
 	
 	@BeforeMethod
 	public void startApp() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Eclipse project\\LearnSelenium\\drivers\\chromedriver.exe");
 		ChromeOptions op=new ChromeOptions();
 		op.setBinary("C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe");
 		driver = new ChromeDriver(op);
